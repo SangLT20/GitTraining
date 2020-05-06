@@ -1,0 +1,36 @@
+title {
+  display: none;
+}
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: rgb(185, 226, 34);
+    margin-left: 80px;
+}
+div {
+    background-color: rgb(241, 18, 223);
+}
+body {
+    background-image: url("D:/2.Training/img_lights.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*----------------------------------------------------*/
+    /* background-image: url("D:/2.Training/img_0.jpg");
+    background-image: url("D:/2.Training/img_lights.jpg") right top repeat-x; */
+}
+p.dotted {
+    border-style: dotted;
+    border-radius: 10px
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+body {
+    font-family: "Sofia";
+    font-size: 22px;
+  }
