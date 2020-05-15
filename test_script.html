@@ -17,7 +17,7 @@
     document.write(sang.name)
 </script> -->
 
-<script src="./file.js"> </script>
+<!-- <script src="./file.js"> </script> -->
 <p>Click the button to open a new window called "MsgWindow" with some text.</p>
 
 <div>
@@ -25,20 +25,21 @@
 </div>
 
 <script>
-// var $name = 'sang'
-// function myFunction(v1) {
-// //   var myWindow = window.open("le", "MsgWindow", "width=200,height=100");
-// //   myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>"+ name);
-//     console.log(`Hello ${v1}`);
-// }
-alert('123')
-for (var i = 0; i < 5; i++) {
-   setTimeout(function(){ 
-      console.log('Yo! ', i);
-   }, 1000);
-}
+    var $name = 'sang'
+    function myFunction(v1) {
+    //   var myWindow = window.open("le", "MsgWindow", "width=200,height=100");
+    //   myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>"+ name);
+        
+    }
+    for (var i = 0; i < 5; i++) {
+    setTimeout(function(){ 
+        console.log('Yo! ', i);
+    }, 1000);
+    }
 </script>
 <button onclick="myFunction($name)"> Try it </button>
+
+${document.write(`Hello ${v1}`);}
 
 </body>
 </html>
