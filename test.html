@@ -2,11 +2,130 @@
 
 <html lang="en">
 <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <meta charset="utf-8" />
      <title>Web Pages Demo</title>
+     <!-- <script>
+          // var result = confirm('Are you sure to delete it ?');
+          // if(result){
+          //      alert('Deleted');
+          // }
+          // else if (result== false){
+          //      alert('Not delete');
+          // }
+          var name = prompt("Vấn đáp", "Tên bạn là gì?");
+          document.write(name);
+     </script>
+     <script>
+          jQuery(document).ready(function()
+          {
+               jQuery("#btn1").focus(function () {
+                    alert('ok jquery');
+               })
+          })
+     </script> -->
+     <script>
+
+     </script>
+     <script>
+          $(document).ready(function(){
+                $('table tr').each(function(){
+               if ($(this).find('td:first').text() == 'C#')
+               alert($(this).html())
+                });
+          });
+     </script>
+     <button onclick="sangfunction()">Try it</button>
+
+
+     <script>
+     function myFunction() {
+       document.getElementById("table1").innerHTML = "Hello World";
+     }
+     </script>
+     <script>
+          
+          function sangfunction(){
+               document.getElementById("btn1").attributeName = "new value";
+          }
+          function addstring(){
+               var body = document.querySelector('body');
+               var s = '';
+               for (var i = 0; i<5; i++){
+                    s+= "<p> Hello world</p>";
+               }
+               var now = new Date().getTime();
+               body.innerHTML =s;
+               var etl = new Date().getTime()-now;
+               console.log(etl);
+          }
+     </script>
+     <!-- <script>
+          window.onload = function () {
+               var btn = document.getElementById("btn1");
+               btn.addEventListener('click',clickHere);
+          }
+          function clickHere() {
+               alert('ok');
+          }
+     </script> -->
 </head>
 <body>
+     <table border="1" id="table1">
+          <tr>
+              <th colspan="3">THÔNG TIN SINH VIÊN</th>
+          </tr>
+          <tr>
+              <td>C#</td>
+              <td>03/08/1993</td>
+              <td>Nam</td>
+          </tr>
+          <tr>
+              <td>Kiều Thị Thu Hằng</td>
+              <td>04/09/1991</td>
+              <td>Nữ</td>
+          </tr>
+          <tr>
+              <td>Vương Thị Lê Na</td>
+              <td>06/10/1991</td>
+              <td>Nữ</td>
+          </tr>
+      </table>
+      <button id ="btn1" name="old">clickHere</button>
+        <!-- <script>
+          function change()
+          {
+             // Lấy đối tượng
+             var object = document.getElementById("object");
+          
+             // lấy thuộc tính type
+             var type = object.type;
+         
+             // kiểm tra thuộc tính type và thay đổi
+            if (type == "button"){
+           
+               object.type = 'text';
+            }
+            else{
+                object.type = "button";
+            }
+         
+          }
+        </script>
+        <input type="button" value="CLick me" onclick="change()" id="object" /> <br>
+        <input type= "button" value="is value" onfocus="addstring()" name="sang" />
+
+        <div>
+          <script>addstring();</script>   
+        </div>
+
+    
      <h1>Hello Web Pages</h1>
      <p>The time is @DateTime.Now</p>
+     <div>
+          <p> this is paragraph <span><b>bold</b> <del>delete</del></span> </p>
+     </div> -->
+     
 </body>
 </html>
+
