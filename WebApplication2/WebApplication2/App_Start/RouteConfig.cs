@@ -17,7 +17,7 @@ namespace WebApplication2
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-                ,namespaces: new[] { "WebApplication2.Areas.Admin.Controllers" }
+                ,namespaces: new[] { "WebApplication2.Controllers" }
             );
         }
     }

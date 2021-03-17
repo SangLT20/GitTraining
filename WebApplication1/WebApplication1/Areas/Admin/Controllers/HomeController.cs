@@ -9,8 +9,9 @@ namespace WebApplication1.Areas.Admin.Controllers
     public class HomeController : Controller
     {
         // GET: Admin/Home
-        public ActionResult Index()
+        public ActionResult Index(int id)
         {
+
             return View();
         }
     }
