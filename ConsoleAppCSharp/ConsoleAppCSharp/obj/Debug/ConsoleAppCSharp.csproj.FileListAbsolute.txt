@@ -1,0 +1,10 @@
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\bin\Debug\ConsoleAppCSharp.exe.config
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\bin\Debug\ConsoleAppCSharp.exe
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\bin\Debug\ConsoleAppCSharp.pdb
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\obj\Debug\ConsoleAppCSharp.csprojAssemblyReference.cache
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\obj\Debug\ConsoleAppCSharp.csproj.CoreCompileInputs.cache
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\obj\Debug\ConsoleAppCSharp.exe
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\obj\Debug\ConsoleAppCSharp.pdb
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\bin\Debug\log4net.dll
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\bin\Debug\log4net.xml
+E:\C\C#\ConsoleAppCSharp\ConsoleAppCSharp\obj\Debug\ConsoleAppCSharp.csproj.CopyComplete
