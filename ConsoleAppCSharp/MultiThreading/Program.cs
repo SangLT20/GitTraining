@@ -10,20 +10,37 @@ namespace MultiThreading
 {
     class Program
     {
+        public static int n = 10000;
+
         static void Main(string[] args)
         {
-            var key = Console.ReadLine();
-            Console.WriteLine(key);
-            Thread t = new Thread(() => Go("o"));
-            Thread t2 = new Thread(() => Go("i"));
-            t.Start();
-            t2.Start();
-            //t.Join();
-            Thread.Sleep(TimeSpan.FromMinutes(1)); // sleep for 1 minutes
-            //Thread.Sleep(500); // sleep for 500 milliseconds 
-            Thread.Sleep(0);            Thread.Yield();            Go("i");
-            Console.WriteLine("Thread t has ended!");
-           
+            //var key = Console.ReadLine();
+            //Console.WriteLine(key);
+            //Thread t = new Thread(() => Go("o"));
+            //Thread t2 = new Thread(() => Go("i"));
+            //t.Start();
+            //t2.Start();
+            ////t.Join();
+            //Thread.Sleep(TimeSpan.FromMinutes(1)); // sleep for 1 minutes
+            ////Thread.Sleep(500); // sleep for 500 milliseconds 
+            //Thread.Sleep(0);
+            //Thread.Yield();
+            //Go("i");
+
+            //Console.WriteLine("Thread t has ended!");
+
+            Thread threadA = new Thread(MethodA);
+            Thread threadB = new Thread(MethodB);
+            Thread threadC = new Thread(MethodC);
+            threadA.Start();
+            threadB.Start();
+            threadB.IsBackground = true;
+            //threadB.Join();
+
+            threadC.Start();
+
+            Console.ReadLine();
+
 
 
             //using (var process1 = new Process())
@@ -40,6 +57,26 @@ namespace MultiThreading
 
             Console.WriteLine("MainApp");
             Console.ReadKey();
+        }
+
+
+        public static void MethodA()
+        {
+            for (int i = 0; i < n; i++)
+
+                Console.Write("0");
+        }
+
+        public static void MethodB()
+        {
+            for (int i = 0; i < n; i++)
+                Console.Write("1");
+        }
+
+        public static void MethodC()
+        {
+            for (int i = 0; i < n; i++)
+               Console.Write("_");
         }
 
         static void Go(string input)

@@ -1,0 +1,7 @@
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\bin\Debug\ThreadBackground.exe.config
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\bin\Debug\ThreadBackground.exe
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\bin\Debug\ThreadBackground.pdb
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\obj\Debug\ThreadBackground.csprojAssemblyReference.cache
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\obj\Debug\ThreadBackground.csproj.CoreCompileInputs.cache
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\obj\Debug\ThreadBackground.exe
+E:\C\GitTraining\ConsoleAppCSharp\ThreadBackground\obj\Debug\ThreadBackground.pdb

@@ -5,3 +5,10 @@ E:\C\C#\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.csprojAssemblyR
 E:\C\C#\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.csproj.CoreCompileInputs.cache
 E:\C\C#\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.exe
 E:\C\C#\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.pdb
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\bin\Debug\MultiThreading.exe.config
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\bin\Debug\MultiThreading.exe
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\bin\Debug\MultiThreading.pdb
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.csprojAssemblyReference.cache
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.csproj.CoreCompileInputs.cache
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.exe
+E:\C\GitTraining\ConsoleAppCSharp\MultiThreading\obj\Debug\MultiThreading.pdb

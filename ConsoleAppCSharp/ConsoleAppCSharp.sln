@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppCSharp", "Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{BE8F0641-7FFB-4242-A136-1AC235F2454F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadBackground", "ThreadBackground\ThreadBackground.csproj", "{B6491AC4-B383-424A-95D1-204AF0D048FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE8F0641-7FFB-4242-A136-1AC235F2454F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE8F0641-7FFB-4242-A136-1AC235F2454F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE8F0641-7FFB-4242-A136-1AC235F2454F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6491AC4-B383-424A-95D1-204AF0D048FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6491AC4-B383-424A-95D1-204AF0D048FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6491AC4-B383-424A-95D1-204AF0D048FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6491AC4-B383-424A-95D1-204AF0D048FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
